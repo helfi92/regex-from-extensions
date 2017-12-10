@@ -1,14 +1,17 @@
 {
-  "name": "regex-from-extension",
+  "name": "regex-from-extensions",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+  "files": [
+    "build"
+  ],
   "repository": "helfi92/regex-from-extensions",
   "scripts": {
     "build": "neutrino build",
     "lint": "neutrino lint",
     "test": "neutrino test",
-    "prepublish": "neutrino build"
+    "prepare": "neutrino build"
   },
   "keywords": [
     "webpack",
@@ -17,11 +20,12 @@
     "loader"
   ],
   "author": "Hassan Ali <helfi92@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "@neutrinojs/airbnb-base": "^8.0.8",
-    "@neutrinojs/jest": "^8.0.8",
-    "@neutrinojs/library": "^8.0.8",
-    "neutrino": "^8.0.8"
+    "@neutrinojs/airbnb-base": "^8.0.9",
+    "@neutrinojs/jest": "^8.0.9",
+    "@neutrinojs/library": "^8.0.9",
+    "@neutrinojs/react": "^8.0.9",
+    "neutrino": "^8.0.9"
   }
 }
